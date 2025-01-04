@@ -1,0 +1,13 @@
+file_format: "1"
+id: cradio_tp
+name: Cradio TP
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - studio
+siblings:
+  - cradio_tp_left
+  - cradio_tp_right
