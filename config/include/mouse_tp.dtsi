@@ -175,7 +175,7 @@
 
     &mouse_ps2_input_listener {
       status = "okay";
-      tp-y-invert;
+      y-invert;
     };
 
     #ifdef MOUSE_PS2_DRIVER_UART
