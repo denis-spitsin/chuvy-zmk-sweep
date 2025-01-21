@@ -45,8 +45,8 @@
   //
   // Not all trackpoints support it and you have to enable
   // `tp-press-to-select;` in `&mouse_ps2` first.
-  #define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
-  #define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
+  //#define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
+  //#define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
 
 
   // If you mess up the settings, you can use this key code to clear the
@@ -90,11 +90,11 @@
 
       // How long the mouse needs to move for before the layer is activated (to
       // avoid accidental activations while typing) (Default: 250)
-      layer-toggle-delay-ms = <250>;
+      layer-toggle-delay-ms = <350>;
 
       // How long to wait, after the last mouse movement, before deactivating
       // the layer (Default: 250)
-      layer-toggle-timeout-ms = <350>;
+      layer-toggle-timeout-ms = <250>;
     };
 
 
